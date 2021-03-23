@@ -45,6 +45,7 @@ function renderSquare(i, [knightX, knightY], [bishopX, bishopY], [rookX, rookY],
 
 export default function Board({ knightPosition, bishopPosition, rookPosition, queenPosition, kingPosition, pawnPosition }) {
   const squares = []
+  console.log({ knightPosition, bishopPosition, rookPosition, queenPosition, kingPosition, pawnPosition })
   for (let i = 0; i < 64; i++) {
     squares.push(renderSquare(i, knightPosition, bishopPosition, rookPosition, queenPosition, kingPosition, pawnPosition))
   }
