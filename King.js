@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default function Bishop() {
-  return <span>♔</span>
+  return <span className='King'>♔</span>
 }
